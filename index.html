@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhiogo &amp; Laura | 17.07.2027</title>
+  <meta name="description" content="Casamento de Dhiogo e Laura - 17 de Julho de 2027 - Spaço Verde, Uberlândia MG" />
+  <link rel="icon" type="image/png" href="assets/images/brasao.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div id="loader">
+    <img src="assets/images/brasao.png" alt="Brasão Dhiogo e Laura" class="loader-crest" />
+  </div>
+
+  <!-- ===== PÉTALAS FLUTUANTES (decoração) ===== -->
+  <div class="petals" id="petals" aria-hidden="true"></div>
+
+  <!-- ===== NAVEGAÇÃO ===== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#home" class="nav-logo">
+        <img src="assets/images/brasao.png" alt="Brasão" />
+        <span>D &amp; L</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link">Início</a>
+        <a href="#mensagem" class="nav-link">Nossa Mensagem</a>
+        <a href="#evento" class="nav-link">Local &amp; Data</a>
+        <a href="#presentes" class="nav-link">Lista de Presentes</a>
+        <a href="#rsvp" class="nav-link nav-cta">Confirmar Presença</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-pretitle" data-reveal>Vamos nos casar!</p>
+      <img src="assets/images/brasao.png" alt="Brasão de Dhiogo e Laura" class="hero-crest" data-reveal />
+      <h1 class="hero-names" data-reveal>Dhiogo <span class="hero-amp">&amp;</span> Laura</h1>
+      <p class="hero-date" data-reveal>17 de Julho de 2027 &bull; 16h30</p>
+
+      <div class="countdown" id="countdown" data-reveal>
+        <div class="countdown-item">
+          <span class="countdown-number" id="cd-days">00</span>
+          <span class="countdown-label">dias</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="cd-hours">00</span>
+          <span class="countdown-label">horas</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="cd-minutes">00</span>
+          <span class="countdown-label">min</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="cd-seconds">00</span>
+          <span class="countdown-label">seg</span>
+        </div>
+      </div>
+
+      <a href="#mensagem" class="scroll-indicator" aria-label="Rolar para baixo">
+        <span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== MENSAGEM ESPECIAL ===== -->
+  <section class="section message-section" id="mensagem">
+    <div class="container">
+      <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+      <p class="message-text" data-reveal>
+        Deus abençoou nosso encontro, o amor floresceu e escolhemos caminhar juntos por toda a vida.
+        Com coração cheio de alegria, convidamos vocês para celebrar o início do nosso para sempre.
+      </p>
+      <div class="divider" data-reveal>
+        <span></span>
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4">
+          <path d="M12 21s-7-4.35-9.5-8.5C.6 8.8 2.2 5 6 5c2.2 0 3.6 1.3 4.5 2.6C11.4 6.3 12.8 5 15 5c3.8 0 5.4 3.8 3.5 7.5C19 16.65 12 21 12 21z"/>
+        </svg>
+        <span></span>
+      </div>
+      <p class="message-signature" data-reveal>Com amor, Dhiogo &amp; Laura</p>
+    </div>
+  </section>
+
+  <!-- ===== LOCAL & DATA ===== -->
+  <section class="section event-section" id="evento">
+    <div class="container">
+      <p class="section-pretitle" data-reveal>Quando &amp; Onde</p>
+      <h2 class="section-title" data-reveal>A Celebração</h2>
+
+      <div class="event-grid">
+        <div class="event-card" data-reveal>
+          <div class="event-icon">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg>
+          </div>
+          <h3>Data</h3>
+          <p>Sábado, 17 de Julho de 2027</p>
+        </div>
+
+        <div class="event-card" data-reveal>
+          <div class="event-icon">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          </div>
+          <h3>Horário</h3>
+          <p>Cerimônia às 16h30</p>
+        </div>
+
+        <div class="event-card" data-reveal>
+          <div class="event-icon">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          </div>
+          <h3>Local</h3>
+          <p>Spaço Verde<br />Anel Viário St. Oeste<br />Luizote de Freitas, Uberlândia - MG<br />38400-402</p>
+        </div>
+      </div>
+
+      <div class="event-actions" data-reveal>
+        <button class="btn btn-primary" id="addCalendarBtn">Adicionar ao Calendário</button>
+        <a class="btn btn-outline" id="mapLink" href="#" target="_blank" rel="noopener">Ver no Mapa</a>
+      </div>
+
+      <div class="map-wrapper" data-reveal>
+        <iframe
+          id="mapFrame"
+          title="Mapa - Spaço Verde, Uberlândia"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LISTA DE PRESENTES ===== -->
+  <section class="section gifts-section" id="presentes">
+    <div class="container">
+      <p class="section-pretitle" data-reveal>Com carinho</p>
+      <h2 class="section-title" data-reveal>Lista de Presentes</h2>
+      <p class="section-subtitle" data-reveal>
+        Sua presença é o presente mais importante para nós. Mas, se desejar nos presentear,
+        preparamos esta lista com muito carinho.
+      </p>
+
+      <div class="gifts-grid" id="giftsGrid">
+        <!-- Preenchido via js/gifts.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MODAL DE PRESENTE ===== -->
+  <div class="modal" id="giftModal">
+    <div class="modal-box">
+      <button class="modal-close" id="giftModalClose" aria-label="Fechar">&times;</button>
+      <h3 id="giftModalTitle">Presentear</h3>
+      <p class="modal-gift-name" id="giftModalGiftName"></p>
+      <form id="giftForm">
+        <label for="giftGuestName">Seu nome</label>
+        <input type="text" id="giftGuestName" required placeholder="Como quer ser identificado" />
+        <button type="submit" class="btn btn-primary btn-full">Confirmar Presente</button>
+      </form>
+      <p class="modal-note">* Isso vai marcar o presente como reservado na nossa planilha de controle.</p>
+    </div>
+  </div>
+
+  <!-- ===== CONFIRMAR PRESENÇA (RSVP) ===== -->
+  <section class="section rsvp-section" id="rsvp">
+    <div class="container container-narrow">
+      <p class="section-pretitle" data-reveal>Sua presença é muito importante</p>
+      <h2 class="section-title" data-reveal>Confirme sua Presença</h2>
+      <p class="section-subtitle" data-reveal>Por favor, confirme até 30 dias antes da celebração.</p>
+
+      <form class="rsvp-form" id="rsvpForm" data-reveal>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="rsvpName">Nome completo *</label>
+            <input type="text" id="rsvpName" name="name" required placeholder="Seu nome" />
+          </div>
+          <div class="form-group">
+            <label for="rsvpPhone">WhatsApp *</label>
+            <input type="tel" id="rsvpPhone" name="phone" required placeholder="(00) 00000-0000" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="rsvpEmail">E-mail</label>
+          <input type="email" id="rsvpEmail" name="email" placeholder="seuemail@exemplo.com" />
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <span class="form-label">Vai comparecer? *</span>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="attending" value="sim" required /> Sim, estarei lá!
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="attending" value="nao" /> Não poderei ir
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="rsvpGuests">Número de acompanhantes</label>
+            <input type="number" id="rsvpGuests" name="guests" min="0" max="10" value="0" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="rsvpMessage">Mensagem para os noivos</label>
+          <textarea id="rsvpMessage" name="message" rows="3" placeholder="Deixe seu recado de carinho (opcional)"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full">Confirmar Presença</button>
+      </form>
+
+      <div class="rsvp-success" id="rsvpSuccess">
+        <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.8 2.8L16 9.8"/></svg>
+        <h3>Obrigado!</h3>
+        <p id="rsvpSuccessMessage">Sua resposta foi registrada com carinho. Mal podemos esperar para celebrar com você!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer">
+    <img src="assets/images/brasao.png" alt="Brasão Dhiogo e Laura" class="footer-crest" />
+    <p class="footer-names">Dhiogo &amp; Laura</p>
+    <p class="footer-date">17 de Julho de 2027</p>
+    <p class="footer-copy">Feito com amor para o nosso grande dia.</p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/gifts.js"></script>
+  <script src="js/rsvp.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
