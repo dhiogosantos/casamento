@@ -122,7 +122,7 @@ function setupAddToCalendar() {
       "BEGIN:VEVENT",
       `DTSTART:${toICSDate(start)}`,
       `DTEND:${toICSDate(end)}`,
-      `SUMMARY:Casamento de ${WEDDING_DATA.couple.groom} & ${WEDDING_DATA.couple.bride}`,
+      `SUMMARY:Casamento de ${WEDDING_DATA.couple.bride} & ${WEDDING_DATA.couple.groom}`,
       `LOCATION:${WEDDING_DATA.event.venueName} - ${WEDDING_DATA.event.address}`,
       "DESCRIPTION:Venha celebrar o nosso grande dia!",
       "END:VEVENT",
@@ -132,7 +132,7 @@ function setupAddToCalendar() {
     const blob = new Blob([icsContent], { type: "text/calendar;charset=utf-8" });
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
-    link.download = "casamento-dhiogo-laura.ics";
+    link.download = "casamento-laura-dhiogo.ics";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

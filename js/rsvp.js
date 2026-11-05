@@ -17,9 +17,7 @@ function saveRsvpLocally(data) {
 function showRsvpSuccess(data, form) {
   const successMessage = document.getElementById("rsvpSuccessMessage");
   successMessage.textContent =
-    data.attending === "sim"
-      ? "Sua presença foi confirmada com alegria. Mal podemos esperar para celebrar com você!"
-      : "Sentiremos sua falta, mas agradecemos por nos avisar com carinho.";
+    "Sua presença foi confirmada com alegria. Mal podemos esperar para celebrar com você!";
   form.style.display = "none";
   document.getElementById("rsvpSuccess").classList.add("show");
 }

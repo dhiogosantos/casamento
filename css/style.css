@@ -1,5 +1,5 @@
 /* =========================================================
-   Dhiogo & Laura - Casamento | 17.07.2027
+   Laura & Dhiogo - Casamento | 17.07.2027
    Paleta: lilás | Fontes: Parisienne / Playfair Display / Poppins
    ========================================================= */
 
@@ -278,12 +278,27 @@ ul { list-style: none; }
   margin-bottom: 44px;
 }
 
+.countdown-label-top {
+  font-size: .95rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: .85;
+  margin-bottom: 14px;
+}
+
 .countdown {
   display: flex;
   justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
-  margin-bottom: 50px;
+  margin-bottom: 18px;
+}
+
+.countdown-label-bottom {
+  font-family: var(--font-script);
+  font-size: 1.5rem;
+  opacity: .95;
+  margin-bottom: 32px;
 }
 .countdown-item {
   background: rgba(255,255,255,0.14);
@@ -643,7 +658,7 @@ ul { list-style: none; }
   gap: 20px;
 }
 .form-group { margin-bottom: 20px; }
-.form-group label, .form-label {
+.form-group label {
   display: block;
   font-size: .85rem;
   margin-bottom: 7px;
@@ -667,22 +682,6 @@ ul { list-style: none; }
   outline: none;
   border-color: var(--color-primary);
 }
-.radio-group {
-  display: flex;
-  gap: 18px;
-  flex-wrap: wrap;
-  padding-top: 4px;
-}
-.radio-option {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: .9rem;
-  color: var(--color-text);
-  cursor: pointer;
-}
-.radio-option input { width: auto; }
-
 .rsvp-success {
   display: none;
   text-align: center;

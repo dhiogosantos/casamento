@@ -1,4 +1,4 @@
-# Casamento Dhiogo & Laura 💜
+# Casamento Laura & Dhiogo 💜
 
 Site do casamento com lista de presentes e confirmação de presença (RSVP).
 17 de Julho de 2027 às 16h30 — Spaço Verde, Uberlândia - MG.
